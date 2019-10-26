@@ -12,7 +12,7 @@ Every morning, I am running around getting ready for work. I want to be able to 
 
 ## Solution
 * Requesting data from the [MBTA API](https://www.mbta.com/developers/v3-api) to pull the information about stop
-* Flask framework to serve the connect to the users browsers 
+* Flask framework to serve the application to the users browser 
 * Request python module to connect with MBTA API through REST requests
 * Scheduler/timer - TBD
 * Controlling the monitor display - TBD
