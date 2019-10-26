@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <h1>Bus: {{bus}}</h1>
+    <h1>{{date}}</h1>
+    {% for arrival in arrivals %}
+    <span>Bus should arrive in:</span>
+    <h2>{{ arrival }}</h2>
+    {% endfor %}
+</body>
+
+</html>
